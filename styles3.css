@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(banner/ford-mustang-sutton--7.jpg);
+background-size: contain;
+    /* border: border-box;
+    background-color: rgb(185, 174, 158);
+    background: rgb(238, 174, 202);
+     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(79, 149, 148, 1) 100%);
+     /* /* background-image: url(banner/images\ \(12\).jpeg.jpg); */
+ /* background: rgb(238,174,202); */
+   /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+}
+
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100px;
+    margin-top: 20px;
+    /* margin-left: 200px; */
+    color: rgb(32, 1, 146);
+}
+
+.images {
+    /* width: 800px; */
+    padding-left: 300px;
+    display: flex;
+    text-align: right;
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.images img {
+    width: 80px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+}
+
+.form {
+    padding-left: 40px;
+    background-image: url(banner/wallpaper2.jpg);
+    background-size: cover;
+    width:auto;
+  
+}
+
+.about {
+    background-color: black;
+    /* padding: 15px; */
+    color: blanchedalmond;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0%;
+    width: 1000px;
+    margin-right: 0px;
+    padding: 20px;
+}
+.about p{
+    color: burlywood;
+}
+.about img{
+    width: 25px;
+    height: 25px;
+    display:table-column;
+     margin-top: 20px; 
+}
+
+input {
+    background-color: rgb(217, 227, 228);
+}
+
+.OFFER {
+position: relative;
+text-align: center;
+position: sticky;
+height: 300px;
+
+}
+.nav{
+    height: 200px;
+    width: 1000px;
+    /* background-color: rgba(240, 235, 235, 0.925); */
+    background-size: contain;
+    
+
+    /* background-image: url(banner/images\ \(12\).jpeg.jpg); */
+    /* background-size: cover; */
+}
+nav img{
+    border-radius: 20px;
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
+.OFFER .offerpoperties   {
+    text-align: right;
+
+}
+
+.OFFER img{
+    border-radius: 12px 20px 14px 23px;
+    color: blue;
+}
+p{
+    color: rgba(161, 38, 65, 0.781); 
+}
+.footer{
+    height: 40px;
+    width: 1000px;;
+    background-color: black;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    h1{
+      width: 80%;
+      padding: 0;
+    }
+    nav {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+     nav div.images img, nav h4{
+      width: 70%;
+    }
+    h1{
+        width: 30%;
+    }
+    h2{
+        padding-right: 20px;
+    }
+    div.images{
+        width: 50%;
+        text-align: center;
+    }
+}
+.cover{
+    width: 1000px;
+}
+.about-us p{
+font-size:larger;
+font:  sans-serif;
+color: azure;
+}
+.address p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: larger;
+color: azure;
+}
+label{
+color:rgb(226, 233, 241);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: large;
+}
+.cover :hover{
+    color: rgba(211, 2, 230, 0.938);
+}
+.nav :hover{
+    color: rgb(240, 239, 241);
+}
+h4{
+    color: black;
+}

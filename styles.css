@@ -1,0 +1,108 @@
+*{
+  margin: 0%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(240, 241, 245);
+  background-image:url(banner/images\ \(9\).jpeg.jpg ) ;
+  background-size:1400px;
+  max-height: none;
+  color: rgb(19, 4, 10);
+   -webkit-display: flex;
+-moz-display: flex;
+-ms-display: flex;
+-o-display: flex;
+ display: flex;
+}
+header{
+  margin-left: 2px;
+  margin-top: 10PX;
+  /* background-color:rgba(240, 232, 232, 0.897); */
+  /* background: rgb(238,174,202); */
+   /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+   /* font-family: "Arial Black", Gadget, sans-serif; */
+   background-image: url(banner/image-removebg-preview.png);
+   height: 200px;
+  width: 600px; 
+  background-position: center;
+}
+ .nav-links ul li{
+   text-align: right;
+   display: flex;
+   display: inline-block;
+   margin-top: 25px;
+   justify-content: space-between;
+   margin-right: 25px;
+ }
+
+ul li a{
+  color: rgb(218, 3, 3);
+  font-weight: bold;
+   font-size: 130%; 
+}
+ h4 a{
+  color: rgba(179, 6, 6, 0.979);
+}
+p{
+  margin:40px;
+  color:rgba(129, 25, 63, 0.897);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.container{
+  max-width:1300px;
+  min-width: 300px;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.row{
+  align-items:bottom;
+  margin-top: 100px;
+  padding: 30px;
+}
+.col-1{
+  background-size: auto;
+  min-width: 300px;
+}
+.col-1 img{
+  margin: 150px 0 ;
+  align-items: center;
+  position:absolute;
+
+}
+.col-1 h2{
+margin-top: -40px;
+}
+.col-1 h3{
+  margin-top: 100px;
+  font-size: 20px;
+  line-height:20px ;
+  margin:50px 0px ;
+  text-align: center;
+  color: rgba(141, 5, 5, 0.897);
+}
+.contents{
+  display: flex;
+  display: inline-block;
+  margin-right: 150px;
+  position: absolute;
+  align-items: center;
+background-size:700px;
+}
+  section{ 
+  flex-basis: 40%;
+    display: inline;
+    padding: 40px;
+    margin:50px 0;
+
+  }
+  /* ....product page... */
+  .row1{
+    display: flex;
+  }
+  iframe src{
+    text-align: left;
+    margin-left: 0%;
+  }

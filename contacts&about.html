@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<meta lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <title>cantact and about page</title>
+    <link rel="stylesheet" href="styles3.css">
+            
+    <script>
+        function changeCar() {
+            var make=document.getElementById("make").value;
+           // make == 'nissan' ? nissan(): toyota();
+            if (make == 'nissan') {
+                nissan()
+                string= "";
+                //model(select) set to toyota models
+                
+            } 
+             if(make == 'toyota') {
+                toyota()
+                string= "";
+            
+            }
+            if(make=="Subaru") {
+                Subaru()
+                string= "";
+            }
+        }
+        var carArr = {
+            "toyota": ["Axio", "Allion", "Fortuner", "Fielder","HiAce","Hilux", 'Harrier', 'Prado',"Premio","Rav 4","Rush","Starlet","Land Cruiser", 'v8',"Vitz"],
+            "nissan": ['Rush', 'xtrail', 'wingroad',"Note","March","Sylphy","Tiida","Murano","Skyline","Juke"],
+            "Subaru": ["Outback","Legacy","Impreza","Forester"]
+        }
+        var string = "";
+        function toyota() {
+            
+            document.getElementById('model').innerHTML = string;
+            let model = carArr.toyota;
+            model.forEach(mod => {
+                string += "<option>"+ mod + "</option>";
+            });
+            document.getElementById('model').innerHTML = string;
+             
+        }
+        function nissan() {
+            
+            document.getElementById('model').innerHTML = string;
+            let model = carArr.nissan;
+            model.forEach(mod => {
+                string += "<option>"+ mod + "</option>";
+            });
+            document.getElementById('model').innerHTML = string;
+        
+        }
+        function Subaru() {
+            
+            document.getElementById('model').innerHTML = string;
+            let model = carArr.Subaru;
+            model.forEach(mod => {
+                string += "<option>"+ mod + "</option>";
+            });
+            document.getElementById('model').innerHTML = string;
+        
+        }
+    </script>
+</head>
+
+<body>
+    <div class="cover">
+        <div class="nav">
+    <nav>
+    <img src="banner/image-removebg-preview.png" width="100px">
+    <a href="index.html">Back</a>
+    <div class="images">
+        <img src="banner/calllogo.png"><a href="">
+            <h4>0707378709</h4>
+        </a><img src="banner/Facebook-logo.png"><a href="">
+            <h4>autoehnance</h4>
+        </a><img src="banner/whatsapp.png"><a href="">
+            <h4>0707378709</h4>
+        </a>
+    <!-- </div class='vid'>
+    <video controls autoplay loop>
+        <source src="banner/Kit_Hype_-_In_My_Head_(Hardstyle)__HQ_Videoclip(720p)_Trim.mp4" >
+        <source src="banner/Kit_Hype_-_In_My_Head_(Hardstyle)__HQ_Videoclip(720p)_Trim.ogg" >
+    </video> -->
+</div>
+</div>
+    </nav>
+
+    
+    <!-- <h1>WELCOME</h1> -->
+    
+    <div class="form">
+        <P style="text-align: center;"> WELCOME <br /> FILL THE ENQUIRY TO
+            CONSULT<br /> ABOUT OUR PRODUCTS</P>
+        <h3>GET IN TOUCH</h3>
+        <label>NAME</label><br />
+        <input type="text" name="NAME" required autofocus>
+        <label>PHONE NUMBER</label> <input type="tel" name="PHONE
+                        NUMBER" required autofocus><br />
+        <label>EMAIL ADDRESS</label><br />
+        <input type="text" name="Email" required autofocus>
+        <br />
+        <label for="">MAKE</label>
+        <!-- <input type="text" name="make" required autofocus> -->
+        <select id="make" onchange ="changeCar()">
+            <option value="">..choose make..</option>
+            <option value="toyota">Toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="Subaru">Subaru</option>
+        </select>
+        <select id="model">
+
+        </select> <br />
+        <br />
+        <!-- <input type="text" name="Model" required autofocus> <br/> -->
+        <label>BUDGET</label><br />
+        <input type="text" name="budget" required autofocus> <br />
+        <label>COMMENT</label><br />
+        <input type="Textarea" name="Textarea" required autofocus> <br />
+
+        <input type="button" value="SUMBIT" style="margin-left:80px;margin-top: 30px;">
+    <div class="OFFER">
+        <img src="banner/images (10).jpeg.jpg">
+          <div class="offerproperties">
+                <h2>OFFER</h2>
+                <p>quick sale <br/> bugatti rtg price 3m <br/> lower mileage and well maintain</p>  
+          </div> 
+    </div>
+    </div>
+    <div class="about">
+        <div class="address">
+            <h2>LOCATION</h2>
+            <p>
+              We are located in  mombasa <br/>
+                along<br/>
+                moi<br/>
+                avenue<br/>
+            </p>
+        </div>
+        <div class="contacts">
+            <h2>CONTACTS</h2>
+              <a href="#"><img src="banner/Instagram-Icon-Transparent.png"></a>
+             <a href="#" ></a> <img src="banner/Facebook-logo.png"></a>
+              <a href="#" ><img src="banner/whatsapp.png" ></a>
+        </div>
+        <div class="about-us">
+            <h2>ABOUT US</h2>
+            <p>Our aim and mission to start this company<br/> is to act as a middleman between buyer and seller.<br/>we sell our vehicles on behalf our clients</p>
+        </div>
+    </div>
+    <div class="footer">
+    <p>copyright</p>
+</div>
+</div>
+</body>
+
+</html>
