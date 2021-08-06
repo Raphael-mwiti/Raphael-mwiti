@@ -165,10 +165,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: large;
 }
 .cover :hover{
-    color:rgba (234,301,234,123);
+    color:rgb(rgba(255, 81, 0, 0.726),;
 }
 .nav :hover{
-    color: rgb (201,201,12);
+    color:rgba(255, 81, 0, 0.726);
 }
 h4{
     color: black;
