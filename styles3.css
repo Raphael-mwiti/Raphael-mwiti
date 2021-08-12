@@ -108,9 +108,11 @@ nav img{
 .OFFER img{
     border-radius: 12px 20px 14px 23px;
     color: blue;
+     width: 400PX;
+     height: auto;
 }
 p{
-    color: rgba(161, 38, 65, 0.781); 
+    color: rgba(32, 95, 212, 0.781); 
 }
 .footer{
     height: 40px;
