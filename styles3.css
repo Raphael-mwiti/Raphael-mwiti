@@ -110,6 +110,7 @@ nav img{
     color: blue;
      width: 300PX;
      height: auto;
+    margin-top: -100px;
 }
 p{
     color: rgba(32, 95, 212, 0.781); 
