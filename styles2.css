@@ -22,7 +22,7 @@ body{
     border-radius: 20px;
 }
     ul.photos{ 
-    width: 650px;;
+    width: 700px;;
     height: fit-content;
     display:flex;
     margin: 0; 
@@ -30,7 +30,8 @@ body{
     border: 6px solid #fff;
     border-radius: 14px 14px 14px 14px;
     justify-content:center;
-    background-color: rgba(22, 18, 14, 0.192);
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(186,113,98,0.771551724137931) 8%, rgba(180,49,68,1) 18%, rgba(184,67,67,1) 24%, rgba(187,79,66,1) 28%, rgba(195,93,101,1) 39%, rgba(205,125,114,1) 52%, rgba(233,220,153,1) 91%, rgba(233,225,148,1) 100%);
     align-items: center;
     margin-left: 300px;
 }
