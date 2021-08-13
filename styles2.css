@@ -22,7 +22,8 @@ body{
     border-radius: 20px;
 }
     ul.photos{ 
-    width:800px;
+    width:700px;
+    height: fit-content;
     display:flex;
     margin: 0 auto; 
     padding: 0;
