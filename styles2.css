@@ -28,11 +28,10 @@ body{
     padding: 0;
     border: 6px solid #fff;
     border-radius: 14px 14px 14px 14px;
-    justify-content: center;
+    justify-content:center;
     background-color: rgba(22, 18, 14, 0.192);
     align-items: center;
     margin-left: 300px;
-    display: contents;
 }
 .photos li{
     list-style: none;
