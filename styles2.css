@@ -32,6 +32,7 @@ body{
     background-color: rgba(22, 18, 14, 0.192);
     align-items: center;
     margin-left: 300px;
+    display: contents;
 }
 .photos li{
     list-style: none;
