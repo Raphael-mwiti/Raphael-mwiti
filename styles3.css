@@ -168,5 +168,8 @@ font-size: large;
     color: rgb(rgba(255, 81, 0, 0.562), rgba(0, 128, 0, 0.726), blue);
 }
 h4{
-    color: red;
+    color: rgba(255, 0, 0, 0.452);
+}
+a{
+color: aliceblue;
 }
