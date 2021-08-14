@@ -5,9 +5,9 @@
 }
 body{
   background: rgb(240, 241, 245);
-  background-image:url(banner/images\ \(9\).jpeg.jpg ) ;
-  background-size:1300px;
-  max-height: none;
+  /* background-image:url(banner/images\ \(9\).jpeg.jpg ) ; */
+  /* background-size:1300px; */
+  /* max-height: none; */
   color: rgb(19, 4, 10);
    -webkit-display: flex;
 -moz-display: flex;
