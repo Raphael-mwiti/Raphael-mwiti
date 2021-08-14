@@ -107,9 +107,9 @@ background-size:700px;
     margin-left: 0%;
   }
   .row.col-1 h2{
-    margin-top: 50PX;
-    margin-bottom: 100PX;
+    padding-top: 50PX;
+    padding-bottom: 100PX;
   }
   .row.col-1 h2 p{
-    margin-bottom: 100PX;
+    padding-bottom: 100PX;
   }
