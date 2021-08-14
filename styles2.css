@@ -98,6 +98,9 @@ nav h2{
 nav h5{
     color: rgb(198, 219, 219);
 }
+nav a{
+    color: rgb(243, 229, 229);
+}
 
 .content{
     padding-top: 210px;
