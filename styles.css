@@ -7,7 +7,7 @@ body{
   background: rgb(240, 241, 245);
    background-image:url(banner/images\ \(9\).jpeg.jpg ) ;
   background-size:1300px;
-   max-height:1000px ; 
+   height: 100vh; 
   color: rgb(19, 4, 10);
    -webkit-display: flex;
 -moz-display: flex;
@@ -61,6 +61,7 @@ p{
   align-items:bottom;
   margin-top: 100px;
   padding: 30px;
+  height: 100vh;
 }
 .col-1{
   background-size: auto;
